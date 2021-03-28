@@ -1,0 +1,44 @@
+body {
+  background-color: indianred;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.main {
+  background-color: seashell;
+  flex-basis: 300px;
+  min-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.dnes {
+  font-size: 24px;
+}
+
+.scitaniLidu {
+  font-size: 30px;
+}
+
+.odkaz a {
+  background-color: lightsalmon;
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 2px;
+  display: none;
+}
+
+.odkaz a:hover,
+.odkaz a:focus,
+.odkaz a:active {
+  background-color: indianred;
+}
