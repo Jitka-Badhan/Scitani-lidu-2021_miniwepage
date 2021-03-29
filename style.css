@@ -9,15 +9,25 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: seashell;
+}
+
 .main {
   background-color: seashell;
-  flex-basis: 300px;
-  min-width: 60vw;
+  flex-basis: 250px;
+  min-width: 40vw;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
-  border-radius: 20px;
+}
+
+.main p {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .dnes {
