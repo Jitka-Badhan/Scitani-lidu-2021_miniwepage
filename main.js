@@ -22,7 +22,7 @@ if (now <= scitaniOnlineEnd) {
     '<p>Už není možné vyplnit dotazník online, ale za pár dní můžeš vyplnit dotazník <strong>v papírové podobě</strong>.</p>';
   odkazDiv.style.display = 'inline-block';
   odkazDiv.textContent = 'Více informací zde';
-} else if (now <= scitaniPapirEnd) {
+} else if (now <= scitaniEnd) {
   scitaniDiv.innerHTML =
     scitaniDiv.innerHTML +
     '<p> Můžeš vyplnit dotazník <strong>v papírové podobě</strong>.</p>';
